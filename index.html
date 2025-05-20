@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon says game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><u>Simon Say's Game</u></h1>
+
+    <div class="game-description">
+        <div class="video-container">
+            <iframe id="youtube-video" 
+                width="560" 
+                height="315" 
+                src="https://youtube.com/embed/EWJ5uYwQJGU?si=EIhicdcRWkUiFMZV" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen >
+            </iframe>
+        </div>   
+   
+            <p>
+                        Welcome to the Simon Says game, a memory challenge that will test your ability to remember and repeat patterns! The game presents a sequence of colors that light up, and your task is to click the same colors in the same order. Be careful, though — if you make a mistake, the game will end! <br>
+
+<b>How to Play:</b><br>
+<u>Start the Game</u> : Press any key to begin the game. The game will start with a random sequence of colors. <br>
+
+<u>Follow the Sequence</u> : The game will flash the colors in a specific order. You must repeat the sequence by clicking on the colored buttons in the same order. <br>
+
+<u>Keep Going</u> : With each successful sequence, the game will increase in difficulty, adding another color to the sequence. <br>
+
+<u>Game Over</u> : If you click the wrong color or order, the game will end, and your score will be displayed. Press any key to start again.
+
+<br><b>Key Features:</b> 
+Levels: The game increases in difficulty with each level.
+
+Max Score: Try to beat your own high score as you progress through more levels!
+
+Good luck, and remember — focus, follow the sequence, and don’t make a mistake!
+
+
+             </p>
+              
+    </div>
+    <br>
+
+
+    <h2>Press any key to start the game.</h2>
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red">1</div>
+            <div class="btn yellow" type="button" id="yellow">2</div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green">3</div>
+            <div class="btn purple" type="button" id="purple">4</div>
+        </div>
+    </div>
+    <div class="maxScore">Max Score : 0</div>
+
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
+
